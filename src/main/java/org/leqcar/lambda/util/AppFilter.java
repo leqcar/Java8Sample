@@ -1,4 +1,4 @@
-package org.leqcar.util;
+package org.leqcar.lambda.util;
 
 import org.leqcar.lambda.Apple;
 
@@ -28,5 +28,6 @@ public class AppFilter {
                                     .filter( f -> "red".equals(f.getColor()))
                                     .collect(Collectors.toList());
         System.out.println(result);
+        
     }
 }

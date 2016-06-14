@@ -3,7 +3,7 @@ package org.leqcar.lambda;
 /**
  * Created by JONGT on 6/12/2016.
  */
-public class Apple {
+public class Apple implements Comparable<Apple> {
 
     private String color;
     private int weight;
@@ -25,6 +25,7 @@ public class Apple {
         return weight;
     }
 
+    
     @Override
     public String toString() {
         return "Apple{" +
@@ -32,4 +33,9 @@ public class Apple {
                 "weight='" + weight + '\'' +
                 '}';
     }
+
+	@Override
+	public int compareTo(Apple o) {
+		return 0;
+	}
 }

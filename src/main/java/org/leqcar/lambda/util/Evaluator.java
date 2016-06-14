@@ -1,4 +1,4 @@
-package org.leqcar.util;
+package org.leqcar.lambda.util;
 
 /**
  * Created by JONGT on 6/13/2016.

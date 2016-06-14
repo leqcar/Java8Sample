@@ -1,4 +1,4 @@
-package org.leqcar.util;
+package org.leqcar.lambda.util;
 
 import org.leqcar.lambda.Apple;
 
