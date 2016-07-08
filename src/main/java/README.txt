@@ -15,3 +15,7 @@ Concise - small but informative, no need to write lots of boilerplate codes like
 
 Reference: Java 8 in Action
 
+
+
+
+https://www.infoq.com/articles/spring-cloud-service-wiring

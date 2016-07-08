@@ -3,16 +3,16 @@ package org.leqcar.lambda;
 /**
  * Created by JONGT on 6/12/2016.
  */
-public class Apple implements Comparable<Apple> {
+public class Apple{
 
     private String color;
-    private int weight;
+    private Integer weight;
 
     public Apple(String color) {
         this.color = color;
     }
 
-    public Apple(String color, int weight) {
+    public Apple(String color, Integer weight) {
         this.color = color;
         this.weight = weight;
     }
@@ -21,7 +21,7 @@ public class Apple implements Comparable<Apple> {
         return color;
     }
 
-    public int getWeight() {
+    public Integer getWeight() {
         return weight;
     }
 
@@ -34,8 +34,4 @@ public class Apple implements Comparable<Apple> {
                 '}';
     }
 
-	@Override
-	public int compareTo(Apple o) {
-		return 0;
-	}
 }
