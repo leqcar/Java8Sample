@@ -15,7 +15,7 @@ public class ApplePrint {
                 new Apple("red", 60),
                 new Apple("purple", 40));
 
-        prettyPrintApple(inventory, new ApplePrintHeavyColor());
+        //prettyPrintApple(inventory, new ApplePrintHeavyColor());
 
         //in lambda
         prettyPrintApple(inventory
